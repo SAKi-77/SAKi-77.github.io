@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Xi'an Jiaotong-Liverpool University</a>. Suzhou, China, 215123. 
+subtitle: <a href='#'>The Chinese University of Hong Kong</a>. Shatin, Hong Kong. 
 
 profile:
   align: right
@@ -16,8 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm Suqi. Welcome to my personal website!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m currently a master student at the Chinese University of Hong Kong (香港中文大学), working under the guidance of Prof. Qiuqiang Kong. My research focuses on end-to-end mono to spatial audio generation. Before joining CUHK, I earned my BSc in Computer Science and Information Systems from Xi'an Jiaotong-Liverpool University (西交利物浦), where I was advised by Prof. Yin Cao and explored speech enhancement using generative models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My primary research interests lie in speech and music processing as well as deep learning. Outside of academics, I am a passionate dancer, a Guzheng (a traditional Chinese instrument) player, and an aspiring painter. One day, I hope to bridge my dual passions for science and art, becoming a scientist who also creates art. My dream is to use deep learning to make the world more accessible for disabled individuals, enabling them to experience the sounds of life, while also helping people better enjoy and create music and art.
+
+If my interests resonate with you, feel free to reach out—I’d love to connect! I’m also open to opportunities in speech and music processing. My journey has just begun, and I’m excited for what lies ahead. Let’s shape the future together!
