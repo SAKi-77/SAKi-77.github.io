@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from XJTLU with a BSc in Computer Science, earning First Class Honours from both the University of Liverpool and XJTLU! Grateful to everyone who supported me on this journey.
+Graduated with a BSc in Computer Science, earning BSc degree with First Class Honours from both XJTLU and University of Liverpool! Grateful to everyone who supported me on this journey.
