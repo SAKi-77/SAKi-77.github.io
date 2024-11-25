@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Application season ended with offers from Johns Hopkins and CUHK—100% success! :smile:
+Application season ended with offers from Johns Hopkins and CUHK—100% success! Grateful for both opportunities. :sparkles:
