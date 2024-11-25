@@ -22,4 +22,4 @@ social: true  # includes social icons at the bottom of the page
 
 My primary research interests lie in speech and music processing as well as deep learning. Outside of academics, I am a passionate dancer, a Guzheng (a traditional Chinese instrument) player, and an aspiring painter. One day, I hope to bridge my dual passions for science and art, becoming a scientist who also creates art. My dream is to use deep learning to make the world more accessible for disabled individuals, enabling them to experience the sounds of life, while also helping people better enjoy and create music and art.
 
-If my interests resonate with you, feel free to reach out—I’d love to connect! I’m also open to opportunities in speech and music processing. My journey has just begun, and I’m excited for what lies ahead. Let’s shape the future together! :smile
+If my interests resonate with you, feel free to reach out—I’d love to connect! I’m also open to opportunities in speech and music processing. My journey has just begun, and I’m excited for what lies ahead. Let’s shape the future together! :smile:
