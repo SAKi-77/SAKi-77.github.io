@@ -29,8 +29,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Speech enhancement.
-    - title: Spatial audio generation.
+    - title: Audio Processing
+      contents:
+        - Speech enhancement
+        - Spatial audio generation
+    - title: Generative Models
 
 - title: Honors and Awards
   type: time_table
