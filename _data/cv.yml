@@ -30,7 +30,7 @@
   type: nested_list
   contents:
     - title: Audio Processing
-      contents:
+      items:
         - Speech enhancement
         - Spatial audio generation
     - title: Generative Models
