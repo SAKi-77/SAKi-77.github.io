@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm attending the 9th International Symposium on ElectroAcoustic Technologies in Shenzhen.
+See you in the 9th International Symposium on ElectroAcoustic Technologies in Shenzhen.
