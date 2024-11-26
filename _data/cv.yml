@@ -9,34 +9,49 @@
 - title: Education
   type: time_table
   contents:
-    - title: MSc
+    - title: Master of Science
       institution: The Chinese University of Hong Kong
       year: 2024 - now
       description:
         - Advised by Prof. Qiuqiang Kong.
-        - title: Thesis title
+        - title: Thesis
           contents:
             - End-to-end Mono to Spatial Audio Generation.
-    - title: BSc
+    - title: Bachelor of Science
       institution: Xi'an Jiaotong-Liverpool University
       year: 2020 - 2024
       description:
         - Advised by Prof. Yin Cao.
-        - title: Thesis title
+        - title: Thesis
           contents:
             - Deep Source Separation for Speech Using Generative Models.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Speech enhancement.
+    - title: Spatial audio generation.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+  - year: 2023
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Grand Prize (CNY 2000) and Top 3 in XJTLU Student Research-Led Learning Symposium 
+    - year: 2022
+      items: 
+        - University Academic Achievement Award - Top 10% students  
+        - Summer Undergraduate Research Fellowship Winner, School of Advanced Technology
+        - First Prize and Top 3 in XJTLU Student Research-Led Learning Symposium
+    - year: 2021
+      items: 
+        - University Academic Achievement Award - Top 10% students 
+        - Third prize in DJI RoboMaster Competition - University League
+
+- title: Other Interests
+  type: list
+  contents:
+    - Dancing, Guzheng, Painting.
 
 - title: Open Source Projects
   type: time_table
@@ -45,18 +60,4 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
