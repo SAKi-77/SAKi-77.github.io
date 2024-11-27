@@ -4,7 +4,7 @@ title: Deep Source Separation for Speech Using Generative Models
 description: Thesis
 img: assets/img/12.jpg
 importance: 1
-category: Audio Processing
+category: Audio processing
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
