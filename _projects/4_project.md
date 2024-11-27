@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Convolutional Embeddings for Domain Adaptation in Medical Segmentation
+description: 
 img:
 importance: 3
 category: Image Processing
