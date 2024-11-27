@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Questionnaire-Based Classification of Student Majors
+description: Coursework of Artificial Intelligence 
 img:
 importance: 4
 category: Others
