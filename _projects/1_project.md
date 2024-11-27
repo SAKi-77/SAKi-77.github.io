@@ -14,4 +14,3 @@ Extracting the desired speaker’s voice from a noisy speech is a challenging ta
 
 To overcome this issue, inspired by MetricGAN, we proposed to combine a metric-estimated network with DeepFilterNet2 together as a metric generative adversarial network, where the DeepFilterNet2 is seen as generator and optimized by evaluation metric. By utilizing this network structure, the estimated speech not only becomes more intelligible but is further enhanced to sound more natural. Moreover, we introduce additional distortion methods to further increase the diversity of the training data and make it more closely match noisy speech in real environments. We evaluate our proposed methods’ effectiveness by quantitatively analyzing its performance on Voice Bank + DEMAND dataset and LibriMix blind test set.
 
-
