@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 1
-display_categories: [Audio Processing, Image Processing, Others]
+display_categories: [Audio processing, Image processing, Others]
 horizontal: false
 ---
 
