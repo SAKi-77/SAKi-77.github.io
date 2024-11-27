@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Deep Source Separation for Speech Using Generative Models
+description: Thesis
 img: assets/img/12.jpg
 importance: 1
 category: Audio Processing
