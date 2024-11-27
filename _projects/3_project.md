@@ -2,7 +2,7 @@
 layout: page
 title: End-to-end Mono to Spatial Audio Generation
 description: master thesis
-img: assets/img/7.jpg
+img:
 redirect: https://unsplash.com
 importance: 3
 category: Audio processing
