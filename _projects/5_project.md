@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: IPet - Pet Grooming Website Development
+description: Software Engineering Group Project
 img:
 importance: 3
 category: Others
