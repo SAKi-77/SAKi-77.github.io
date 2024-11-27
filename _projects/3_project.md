@@ -1,81 +1,27 @@
 ---
 layout: page
 title: End-to-end Mono to Spatial Audio Generation
-description: master thesis
+description: Research project at CUHK
 img:
-redirect: https://unsplash.com
+redirect: 
 importance: 3
 category: Audio processing
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**This is an ongoing project at CUHK. I will share more updates once the work is published.**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Problem Description**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project mainly focuses on the task of sound rendering. Sound rendering involves audio spatialization, including stereo audio and spatial audio. Both are used to enhance auditory experiences. In contrast to mono audio, stereo and spatial audio convey spatial information about sound sources, enabling listeners to have a more comprehensive perception of their surroundings. More and more fields are beginning to require these immersive audio experiences, including virtual reality technology, education and entertainment. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Traditionally, sounds in virtual environments are produced by first recording each sound source individually, followed by blending them together using various audio processing techniques according to the desired scene arrangement [2]. However, this recording process could be costly [3], requiring specialized equipment and expertise. To optimize this issue, it is essential to explore methods for generating spatial and stereo audio.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Modern generative machine learning plays a significant role in spatial/stereo audio generation, among which diffusion models [4, 5] have emerged as a novel research direction. When using these generative models to accomplish the task of generating spatial audio or stereo audio, it typically involves utilizing conditional information from different modalities, such as semantic and spatial position information, including text, melodic features, and sound source spatial locations (especially for spatial audio generation) [6, 7].
 
+Recently, integrating audio with visual information to improve realism has gained significant attention in the field of audio spatialization. Mono2Binaural [8] utilized a custom-built stereo audio dataset and employed a U-Net architecture to encode mono audio and decode binaural audio under visual guidance. Sep-Stereo [9] generates stereo audio by integrating both audio and visual information through an associative pyramid framework. Additionally, SEE-2-SOUND [10] estimates the spatial locations of regions of interest in images and generates mono audio for these regions. Ultimately, it combines this visual information with the corresponding mono audio to create spatial audio. These studies highlight the importance of visual cues in stereo and spatial audio generation.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Research Goal**
 
+While the spatialization of mono audio has become a well-explored area of research, only a few works provide approaches to generate spatial audio directly [4]. This approach relates to end-to-end model training, which can simultaneously utilize content information and spatial cues to directly generate spatial audio, simplifying the training pipeline. In this project, we will focus on how to combine visual information and use end-to-end generative models to generate spatial audio. Specifically, we will attempt to generate spatialized audio samples conditioned on diverse inputs such as 3D mesh, mono audio, and/or sound source spatial position information.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Related to sound rendering, the purpose of this project is to consider solutions for generating corresponding 3D spatial audio given mono audio and related 2D image. The 3D construction of a sound field is an important topic in sound rendering. Imaging one people are listening to a concert. The sound he hears will depend on the 3D structure and reflections of the concert hall. In this research, we aim to reconstruct the 3D sound from 2D images and mono recordings. The whole process can be roughly divided into following 2 steps: 1. Extract 3D mesh from an image / 3D camera. 2. Build a neural network rendering system to take the 3D mesh and mono audio as input and output the desired sound.
