@@ -5,7 +5,7 @@ description: master thesis
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: Audio Processing
+category: Audio processing
 ---
 
 Every project has a beautiful feature showcase page.
