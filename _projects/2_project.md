@@ -4,7 +4,7 @@ title: Source Separation for Speech or Music
 description: Undergrad summer research program
 img: assets/img/3.jpg
 importance: 2
-category: Audio Processing
+category: Audio processing
 giscus_comments: true
 ---
 
