@@ -4,7 +4,7 @@ title: Convolutional Embeddings for Domain Adaptation in Medical Segmentation
 description: 
 img:
 importance: 3
-category: Image Processing
+category: Image processing
 ---
 
 Every project has a beautiful feature showcase page.
