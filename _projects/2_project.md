@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Source Separation for Speech or Music
+description: Undergrad summer research program
 img: assets/img/3.jpg
 importance: 2
 category: Audio Processing
