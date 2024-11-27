@@ -8,6 +8,10 @@ category: Audio processing
 related_publications: 
 ---
 
+**Acknowledgement**
+
+This is a reorganized and concise version of my bachelor's thesis at XJTLU where I was supervised by Prof. Yin Cao. I sincerely thank Prof. Cao for his encouragement, support, and invaluable guidance throughout this journey.
+
 **Abstract**
 
 Extracting the voice of desired speaker from a noisy speech is a challenging task. Speech enhancement (SE) aims to achieve this by enhancing speech that is degraded by noise. Recent studies have explored applying deep learning-based SE models for real-time usage. For instance, DeepFilterNet has been proposed for resource-constrained embedded devices, offering real-time capabilities due to its lightweight architecture. However, objective function in many of these deep neural networks is not designed to directly optimize evaluation metrics of a target task, and thus, may not always guide the networks to achieve satisfied evaluation score even if the objective loss is optimized. 
@@ -16,6 +20,7 @@ To overcome this issue, inspired by MetricGAN, we proposed to combine a metric-e
 
 
 **Introduction**
+
 Speech enhancement is a critical task involving the separation of target speech from background interference. In real-world applications, the quality and intelligibility of speech perceived by users heavily rely on the effectiveness of SE systems. These systems are critical components in contemporary automatic speech recognition (ASR), telecommunications, and hearing aid technologies. The importance of SE frameworks is highlighted by the significant volume of ongoing research aimed at improving the performance of existing SE systems. Most of these advancements utilize the latest developments in deep learning (DL) methods and the growing availability of speech data.
 
 Common deep learning-based approaches typically determine the relationship between noisy and clean signals using discriminative methods either in the time-frequency (T-F) domain or the time domain. In T-F domain methods, the initial step involves transforming time-domain speech signals into spectral features typically using a short-time Fourier transform (STFT). The mapping from noisy to clean spectral features is established through a direct mapping function [5], or a masking function [6, 7]. The improved spectral features 4 are then reconstructed into time-domain waveforms by incorporating the phase of the noisy speech through an inverse STFT operation. In comparison to T-F domain methods, time domain methods that learn to directly map noisy to clean in waveforms, have demonstrated an ability to circumvent distortions arising from inaccurate phase information [8, 9].
