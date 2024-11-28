@@ -121,7 +121,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # blog_name will be displayed in your blog page
-blog_description: This records my journey of thoughts from reading papers and learning from mistakes.
+blog_description: Recording my journey of learning from existing literature and mistakes. Hope to help myself and others who have the same interets or challenges. Hope to help myself and others who share similar interests or face similar challenges.
 permalink: /blog/:year/:title/
 
 # Pagination
