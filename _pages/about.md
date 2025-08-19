@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**Hello! I'm Suqi. Welcome to my personal website!**
+**Hello! I'm Suki. Welcome to my personal website!**
 
 **I’m currently pursuing my master degree at The Chinese University of Hong Kong (香港中文大學), working under the guidance of Prof. Qiuqiang Kong.** My research focuses on end-to-end mono to spatial audio generation. Before joining CUHK, I earned my BSc in Computer Science from Xi'an Jiaotong-Liverpool University (西交利物浦大学), where I was advised by Prof. Yin Cao and explored speech enhancement using generative models.
 
