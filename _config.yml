@@ -187,6 +187,9 @@ latest_posts:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+# Disable LSI to prevent related posts calculation errors
+lsi: false
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
