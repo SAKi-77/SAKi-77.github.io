@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Start my intership at ByteDance. 🎶
+Start my internship at ByteDance. 🎶
